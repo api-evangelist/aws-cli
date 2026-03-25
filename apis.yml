@@ -1,0 +1,38 @@
+aid: aws-cli
+name: AWS CLI
+description: >-
+  AWS CLI is the official command-line interface for Amazon Web Services, providing unified access to all AWS services from the terminal.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Command Line Interface
+  - Cloud Provider CLI
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/aws-cli/refs/heads/main/apis.yml
+created: '2026-03-25'
+modified: '2026-03-25'
+specificationVersion: '0.19'
+apis:
+  - aid: aws-cli:aws-cli
+    name: AWS CLI
+    description: >-
+      AWS CLI is the official command-line interface for Amazon Web Services, providing unified access to all AWS services from the terminal.
+    humanURL: https://aws.amazon.com/cli/
+    tags:
+      - Command Line Interface
+      - Cloud Provider CLI
+    properties:
+      - type: Documentation
+        url: https://docs.aws.amazon.com/cli/
+      - type: GitHub Repository
+        url: https://github.com/aws/aws-cli
+common:
+  - type: Website
+    url: https://aws.amazon.com/cli/
+  - type: Documentation
+    url: https://docs.aws.amazon.com/cli/
+  - type: GitHub Organization
+    url: https://github.com/aws/aws-cli
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
