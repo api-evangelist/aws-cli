@@ -5,8 +5,8 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Command Line Interface
   - Cloud Provider CLI
+  - Command Line Interface
 url: >-
   https://raw.githubusercontent.com/api-evangelist/aws-cli/refs/heads/main/apis.yml
 created: '2026-03-25'
@@ -19,8 +19,8 @@ apis:
       AWS CLI is the official command-line interface for Amazon Web Services, providing unified access to all AWS services from the terminal.
     humanURL: https://aws.amazon.com/cli/
     tags:
-      - Command Line Interface
       - Cloud Provider CLI
+      - Command Line Interface
     properties:
       - type: Documentation
         url: https://docs.aws.amazon.com/cli/
