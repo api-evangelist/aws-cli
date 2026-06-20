@@ -8,7 +8,7 @@ description: >-
   performance. It is open-source, available on Linux, macOS, and Windows, and
   is the official CLI for Amazon Web Services.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - AWS
   - CLI
