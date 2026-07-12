@@ -45,6 +45,12 @@ apis:
       - type: GitHubRepository
         url: https://github.com/aws/aws-cli
 common:
+  - type: TrustCenter
+    url: security/aws-cli-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/aws-cli-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/aws-cli-domain-security.yml
   - type: Website
     url: https://aws.amazon.com/cli/
   - type: Documentation
