@@ -57,6 +57,12 @@ apis:
       - type: GitHubRepository
         url: https://github.com/aws/aws-cli
 common:
+  - type: Releases
+    url: https://github.com/aws/aws-cli/releases
+  - type: CodeOfConduct
+    url: https://github.com/aws/aws-cli/blob/develop/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/aws/aws-cli/blob/develop/CONTRIBUTING.md
   - type: TrustCenter
     url: security/aws-cli-trust-center.yml
   - type: VulnerabilityDisclosure
