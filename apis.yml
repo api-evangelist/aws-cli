@@ -27,6 +27,13 @@ tags:
   - Cloud Computing
   - Command Line Interface
   - DevOps
+  - Open-Source
+tags_raw:
+  - AWS
+  - CLI
+  - Cloud Computing
+  - Command Line Interface
+  - DevOps
   - Open Source
 url: >-
   https://raw.githubusercontent.com/api-evangelist/aws-cli/refs/heads/main/apis.yml
@@ -42,6 +49,12 @@ apis:
       with auto-completion, AWS SSO support, and improved performance over v1.
     humanURL: https://aws.amazon.com/cli/
     tags:
+      - AWS
+      - CLI
+      - Command Line Interface
+      - DevOps
+      - Open-Source
+    tags_raw:
       - AWS
       - CLI
       - Command Line Interface
