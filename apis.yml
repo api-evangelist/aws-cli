@@ -10,6 +10,10 @@ description: >-
 type: Index
 deliveryModel:
   model: unknown
+  license_evidence:
+    repo: aws/aws-cli
+    spdx: NOASSERTION
+    stars: 17274
   open_source: unknown
   commercial: true
   callable_host: false
@@ -18,7 +22,7 @@ deliveryModel:
   source:
   - pricing
   - repository-unlicensed
-  generated: '2026-08-28'
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: freemium
@@ -39,7 +43,7 @@ tags:
   - Cloud Computing
   - Command Line Interface
   - DevOps
-  - Open-Source
+  - Open Source
 tags_raw:
   - AWS
   - CLI
@@ -47,6 +51,7 @@ tags_raw:
   - Command Line Interface
   - DevOps
   - Open Source
+  - Open-Source
 url: >-
   https://raw.githubusercontent.com/api-evangelist/aws-cli/refs/heads/main/apis.yml
 created: '2026-03-25'
@@ -65,13 +70,14 @@ apis:
       - CLI
       - Command Line Interface
       - DevOps
-      - Open-Source
+      - Open Source
     tags_raw:
       - AWS
       - CLI
       - Command Line Interface
       - DevOps
       - Open Source
+      - Open-Source
     properties:
       - type: Documentation
         url: https://docs.aws.amazon.com/cli/latest/userguide/
@@ -177,5 +183,5 @@ integrations:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
-x-parent: aws
+x-parent: amazon-web-services
 x-relationship: product
