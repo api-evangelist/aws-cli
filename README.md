@@ -1,4 +1,4 @@
-# AWS CLI (aws-cli)
+# AWS CLI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,86 +66,107 @@
 
 The AWS Command Line Interface (AWS CLI) is a unified tool to manage AWS services from the command line. With just one tool to download and configure, you can control multiple AWS services and automate them through scripts. AWS CLI v2 supports all AWS services with auto-completion, AWS SSO, and improved performance. It is open-source, available on Linux, macOS, and Windows, and is the official CLI for Amazon Web Services.
 
-**URL:** [https://aws.amazon.com/cli/](https://aws.amazon.com/cli/)
+**Areas:** CLI · Cloud Computing · Command Line Interface · DevOps · Open Source
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## AWS CLI on APIs.io
 
-## Tags:
+Everything profiled for AWS CLI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aws-cli/](https://apis.io/providers/aws-cli/)** — or go straight to one of the APIs or properties below.
 
- - AWS, CLI, Cloud Computing, Command Line Interface, DevOps, Open Source
+### APIs (1)
 
-## Timestamps
+- [AWS CLI](https://apis.io/apis/aws-cli/aws-cli/) — The AWS CLI v2 is the official command-line interface for Amazon Web Services, providing unified access to all AWS services from the terminal with…
 
-- **Created:** 2026-03-25
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### AWS CLI
-The AWS CLI v2 is the official command-line interface for Amazon Web Services, providing unified access to all AWS services from the terminal with auto-completion, AWS SSO support, and improved performance over v1.
+#### Security (3)
 
-**Human URL:** [https://aws.amazon.com/cli/](https://aws.amazon.com/cli/)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Aws Cli Domain Security](https://apis.io/security/aws-cli/aws-cli-domain-security/)
+- [Aws Cli Trust Center](https://apis.io/security/aws-cli/aws-cli-trust-center/)
+- [Aws Cli Vulnerability Disclosure](https://apis.io/security/aws-cli/aws-cli-vulnerability-disclosure/)
 
- - AWS, CLI, Command Line Interface, DevOps, Open Source
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://docs.aws.amazon.com/cli/latest/userguide/)
-- [GettingStarted](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-- [APIReference](https://docs.aws.amazon.com/cli/latest/reference/)
-- [GitHubRepository](https://github.com/aws/aws-cli)
+- [Aws Cli Plans Pricing](https://apis.io/plans/aws-cli/aws-cli-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
+
+Published request limits.
+
+- [Aws Cli Rate Limits](https://apis.io/rate-limits/aws-cli/aws-cli-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Aws Cli Finops](https://apis.io/finops/aws-cli/aws-cli-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://aws.amazon.com/cli/)
 - [Documentation](https://docs.aws.amazon.com/cli/)
-- [GettingStarted](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-- [GitHubRepository](https://github.com/aws/aws-cli)
-- [GitHubOrganization](https://github.com/aws)
-- [ReleaseNotes](https://github.com/aws/aws-cli/blob/v2/CHANGELOG.rst)
+- [Getting started](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 - [Support](https://github.com/aws/aws-cli/issues)
-- [StackOverflow](https://stackoverflow.com/questions/tagged/awscli)
+- [Terms of service](https://aws.amazon.com/service-terms/)
+- [Privacy policy](https://aws.amazon.com/privacy/)
+- [GitHub](https://github.com/aws)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Unified AWS Service Access | Control all AWS services from a single command-line tool with consistent syntax and output formatting. |
-| Auto-Completion | Shell auto-completion for commands, subcommands, options, and resource names in bash, zsh, and fish. |
-| AWS SSO Support | Native AWS IAM Identity Center (SSO) integration for credential management and multi-account access. |
-| Output Formatting | Multiple output formats including JSON, YAML, text, and table, with JMESPath query filtering. |
-| Credential Management | Supports named profiles, environment variables, instance metadata, and credential process plugins. |
-| Wizard Commands | Interactive step-by-step wizards for complex workflows like IAM role creation and DynamoDB table setup. |
-| Waiters | Built-in wait commands to poll until AWS resources reach desired states like running or available. |
-| Pagination Control | Automatic pagination with configurable page size and support for --no-paginate and --page-size flags. |
-| Streaming Output | Stream large binary outputs like EC2 console logs and Lambda function logs directly to stdout. |
-| Plugin System | Extensible plugin architecture for adding custom commands and credential providers. |
+**Kin Score 24.6** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 36.8 |
 
-| Name | Description |
-|------|-------------|
-| Infrastructure Automation | Automate AWS infrastructure provisioning, configuration, and teardown in CI/CD pipelines and scripts. |
-| Multi-Account Management | Manage multiple AWS accounts and regions using named profiles and AWS Organizations. |
-| Resource Querying | Query and filter AWS resource inventories with JMESPath expressions and output formatting. |
-| Batch Operations | Process multiple AWS resources in bulk using shell scripting loops and CLI output piping. |
-| Developer Workflows | Speed up development workflows with quick access to S3, Lambda, DynamoDB, and other services. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| AWS IAM Identity Center | Native SSO integration for credential vending and multi-account access management. |
-| AWS CloudShell | Pre-installed in AWS CloudShell for browser-based CLI access without local installation. |
-| AWS CodeBuild | Available in CodeBuild build environments for CI/CD pipeline automation. |
-| GitHub Actions | Used in GitHub Actions workflows via the configure-aws-credentials action. |
-| Homebrew | Installable via Homebrew on macOS for easy installation and updates. |
-| Windows Package Manager | Available via winget for installation on Windows systems. |
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aws-cli/](https://apis.io/providers/aws-cli/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** kin@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AWS CLI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aws-cli/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
